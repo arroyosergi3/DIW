@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de Página Responsiva</title>
+    <!-- Bootstrap CSS desde el CDN especificado -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .box {
+            border: 1px solid #a4c639;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <!-- Estructura para pantallas grandes (lg) -->
+        <div class="row d-none d-lg-flex">
+            <!-- Texto 1 ocupa toda la columna izquierda -->
+            <div class="col-lg-3 box">Texto 1</div>
+
+            <!-- Columna derecha que contiene varias filas para los otros textos -->
+            <div class="col-lg-9">
+                <div class="row">
+                    <!-- Primera fila: Texto 2, Texto 3, Texto 4 -->
+                    <div class="col-lg-4 box">Texto 2</div>
+                    <div class="col-lg-4 box">Texto 3</div>
+                    <div class="col-lg-4 box">Texto 4</div>
+                </div>
+                <div class="row">
+                    <!-- Segunda fila: centrado en la columna, solo Texto 5 ocupa el centro -->
+                    <div class="col-lg-3"></div> <!-- Espacio vacío para centrar -->
+                    <div class="col-lg-6 box">Texto 5</div> <!-- Texto 5 centrado -->
+                    <div class="col-lg-3"></div> <!-- Espacio vacío para centrar -->
+                </div>
+                <div class="row">
+                    <!-- Tercera fila: Texto 8, Texto 9, Texto 10 -->
+                    <div class="col-lg-4 box">Texto 8</div>
+                    <div class="col-lg-4 box">Texto 9</div>
+                    <div class="col-lg-4 box">Texto 10</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Estructura para pantallas medianas (md) -->
+        <div class="row d-none d-md-flex d-lg-none">
+            <div class="col-md-3 box">Texto 1</div>
+            <div class="col-md-3 box">Texto 2</div>
+            <div class="col-md-3 box">Texto 3</div>
+            <div class="col-md-3 box">Texto 4</div>
+
+            <div class="w-100"></div> <!-- Salto de línea -->
+
+            <div class="col-md-12 box">Texto 5</div> <!-- Texto 5 ocupa toda la fila en el centro -->
+
+            <div class="w-100"></div> <!-- Salto de línea -->
+
+            <div class="col-md-3 box">Texto 8</div>
+            <div class="col-md-3 box">Texto 6</div>
+            <div class="col-md-3 box">Texto 9</div>
+            <div class="col-md-3 box">Texto 7</div>
+
+            <div class="w-100"></div> <!-- Salto de línea -->
+
+            <div class="col-md-3 box">Texto 10</div>
+        </div>
+
+        <!-- Estructura para pantallas pequeñas (sm) -->
+        <div class="row d-sm-flex d-md-none">
+            <div class="col-12 box">Texto 1</div>
+
+            <div class="w-100"></div>
+
+            <div class="col-6 box">Texto 2</div>
+            <div class="col-6 box">Texto 3</div>
+
+            <div class="w-100"></div>
+
+            <div class="col-12 box">Texto 5</div>
+
+            <div class="w-100"></div>
+
+            <div class="col-6 box">Texto 8</div>
+            <div class="col-6 box">Texto 9</div>
+
+            <div class="w-100"></div>
+
+            <div class="col-6 box">Texto 4</div>
+            <div class="col-6 box">Texto 6</div>
+
+            <div class="w-100"></div>
+
+            <div class="col-6 box">Texto 7</div>
+            <div class="col-6 box">Texto 10</div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
