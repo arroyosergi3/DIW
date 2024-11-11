@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/_typography.scss","../scss/_borders.scss","../scss/_spacing.scss","../scss/_navbar.scss","../scss/_colors.scss"],"names":[],"mappings":"AAIA;EACE,aAJoB;;;AAOtB;EACE,aAPsB;;;AAWxB;EACE;IACE;;;ACdJ;EACI;IACE;;;AAIJ;EACE;IACE;;;ACRN;EACI;IACE;IACA;;;ACHN;EACI;;;AAGF;EACE;IACE,kBCCC;;EDEH;IACE,OCJE","file":"styles.css"}

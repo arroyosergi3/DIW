@@ -1,0 +1,18 @@
+// _typography.scss
+$font-family-primary: 'Arial, sans-serif';
+$font-family-secondary: 'Georgia, serif';
+
+body {
+  font-family: $font-family-primary;
+}
+
+.navbar, .card-title {
+  font-family: $font-family-secondary;
+}
+
+// Tamaño de tipografía en dispositivos
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9rem;
+  }
+}

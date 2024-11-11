@@ -1,0 +1,8 @@
+// _spacing.scss
+@media (max-width: 768px) {
+    .container, .row, .col, .card {
+      padding: 0.5rem;
+      margin: 0.5rem;
+    }
+  }
+  

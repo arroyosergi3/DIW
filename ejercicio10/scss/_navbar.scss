@@ -1,0 +1,15 @@
+// _navbar.scss
+.navbar-brand img {
+    height: 120px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      background-color: $dark;
+    }
+  
+    .navbar-nav .nav-link {
+      color: $light;
+    }
+  }
+  

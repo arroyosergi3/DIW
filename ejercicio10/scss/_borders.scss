@@ -1,0 +1,13 @@
+// _borders.scss
+@media (min-width: 992px) {
+    .card, .btn, .navbar {
+      border-radius: 8px; // Borde redondeado en dispositivos grandes
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .card, .btn, .navbar {
+      border-radius: 0; // Bordes cuadrados en dispositivos medianos y pequeños
+    }
+  }
+  
